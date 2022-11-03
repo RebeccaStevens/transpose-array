@@ -1,0 +1,18 @@
+{
+  "files.exclude": {
+    "coverage/": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "search.exclude": {
+    "**/.git/": true,
+    ".nyc_output/": true,
+    ".vscode/": true,
+    "dist/": true,
+    "yarn.lock": true
+  },
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "files.associations": {
+    ".markdownlint.json": "jsonc",
+    ".markdownlintignore": "ignore"
+  }
+}

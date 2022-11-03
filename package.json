@@ -1,0 +1,115 @@
+{
+  "name": "transpose-array",
+  "version": "0.0.0-development",
+  "description": "Perform the matrix operation transpose on an array respecting type information.",
+  "homepage": "https://github.com/RebeccaStevens/transpose-array#readme",
+  "bugs": {
+    "url": "https://github.com/RebeccaStevens/transpose-array/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RebeccaStevens/transpose-array"
+  },
+  "license": "BSD-3-Clause",
+  "author": {
+    "name": "Rebecca Stevens",
+    "email": "rebecca.stevens@outlook.co.nz"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    "types": {
+      "import": "./dist/node/types/current/index.d.mts",
+      "require": "./dist/node/types/current/index.d.cts"
+    },
+    "import": "./dist/node/index.mjs",
+    "require": "./dist/node/index.cjs"
+  },
+  "main": "dist/node/index.cjs",
+  "module": "dist/node/index.mjs",
+  "types": "dist/node/types/current/index.d.mts",
+  "files": [
+    "dist/node/",
+    "package.json",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rimraf build && npm run build:node && npm run build:deno && rimraf build && if-env-defined CI || npm run build:assume-unchanged",
+    "build:assume-unchanged": "cd dist; git update-index --assume-unchanged $(git ls-files | tr '\n' ' '); cd ..",
+    "build:deno": "rimraf dist/deno && tsc -p tsconfig.deno.json && denoify",
+    "build:node": "rimraf dist/node && rollup -c rollup.config.ts --configPlugin @rollup/plugin-typescript",
+    "build:types": "rimraf types/current && BUILD_TYPES_ONLY=1 rollup -c rollup.config.ts --configPlugin @rollup/plugin-typescript",
+    "cz": "git-cz",
+    "format": "prettier --write \"./**/*.{md,mts,ts,yml}\"",
+    "lint": "npm run lint:js && npm run lint:md",
+    "lint:js": "eslint .",
+    "lint:md": "markdownlint \"**/*.md\" --config=.markdownlint.json --ignore-path=.markdownlintignore",
+    "prepare": "husky install",
+    "spell-check": "cspell --config=.cspell.json \"**/*.{md,mts,ts}\"",
+    "test": "npm run test:js && npm run test:types",
+    "test:js": "c8 ava",
+    "test:types": "npm run build:types && tsd -f 'tests/**/*.test-d.ts'"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.2.0",
+    "@commitlint/config-conventional": "17.2.0",
+    "@cspell/dict-cryptocurrencies": "3.0.1",
+    "@rebeccastevens/eslint-config": "1.4.4",
+    "@rollup/plugin-node-resolve": "15.0.1",
+    "@rollup/plugin-typescript": "9.0.2",
+    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/commit-analyzer": "9.0.2",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/github": "8.0.6",
+    "@semantic-release/npm": "9.0.1",
+    "@semantic-release/release-notes-generator": "10.0.3",
+    "@types/node": "16.0.0",
+    "@types/rollup-plugin-auto-external": "2.0.2",
+    "@typescript-eslint/eslint-plugin": "5.42.0",
+    "@typescript-eslint/parser": "5.42.0",
+    "ava": "5.0.1",
+    "c8": "7.12.0",
+    "commitizen": "4.2.5",
+    "cspell": "6.13.3",
+    "denoify": "1.4.2",
+    "eslint": "8.26.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-import-resolver-typescript": "3.5.2",
+    "eslint-plugin-ava": "13.2.0",
+    "eslint-plugin-eslint-comments": "3.2.0",
+    "eslint-plugin-functional": "5.0.0-beta.11",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jsdoc": "39.6.2",
+    "eslint-plugin-markdown": "3.0.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-optimize-regex": "1.2.1",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-promise": "6.1.1",
+    "eslint-plugin-sonarjs": "0.16.0",
+    "eslint-plugin-unicorn": "44.0.2",
+    "husky": "8.0.1",
+    "if-env-defined": "1.0.0",
+    "lint-staged": "13.0.3",
+    "markdownlint-cli": "0.32.2",
+    "marked": "4.2.1",
+    "prettier": "2.7.1",
+    "prettier-plugin-packagejson": "2.3.0",
+    "rimraf": "3.0.2",
+    "rollup": "3.2.5",
+    "rollup-plugin-dts": "5.0.0",
+    "semantic-release": "19.0.5",
+    "ts-node": "10.9.1",
+    "tsd": "0.24.1",
+    "typescript": "^4.8.4"
+  },
+  "packageManager": "yarn@3.2.3",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "denoify": {
+    "out": "dist/deno",
+    "index": "src/index.ts"
+  }
+}
