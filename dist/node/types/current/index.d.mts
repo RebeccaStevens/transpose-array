@@ -25,4 +25,4 @@ declare function transpose<T extends ReadonlyArray<ReadonlyArray<unknown>>>(matr
  */
 declare function transposeInPlace(matrix: unknown[][]): void;
 
-export { transpose as default, transposeInPlace };
+export { Transpose, transpose as default, transposeInPlace };
