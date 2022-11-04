@@ -12,7 +12,7 @@
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](https://commitizen.github.io/cz-cli/)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
 
-Perform the matrix operation [transpose](https://en.wikipedia.org/wiki/Transpose) on an array respecting type information.
+Perform the [transpose](https://en.wikipedia.org/wiki/Transpose) matrix operation on an array respecting type information.
 
 </div>
 

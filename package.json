@@ -1,7 +1,7 @@
 {
   "name": "transpose-array",
   "version": "0.0.0-development",
-  "description": "Perform the matrix operation transpose on an array respecting type information.",
+  "description": "Perform the transpose matrix operation on an array respecting type information.",
   "homepage": "https://github.com/RebeccaStevens/transpose-array#readme",
   "bugs": {
     "url": "https://github.com/RebeccaStevens/transpose-array/issues"
