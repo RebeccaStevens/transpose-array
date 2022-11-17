@@ -1236,18 +1236,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rebeccastevens/eslint-config@npm:1.4.4":
-  version: 1.4.4
-  resolution: "@rebeccastevens/eslint-config@npm:1.4.4"
+"@rebeccastevens/eslint-config@npm:1.4.5":
+  version: 1.4.5
+  resolution: "@rebeccastevens/eslint-config@npm:1.4.5"
   dependencies:
     deepmerge-ts: ^4.0.0
   peerDependencies:
     "@typescript-eslint/eslint-plugin": "*"
     "@typescript-eslint/parser": "*"
-    eslint: ">=8.0.0"
+    eslint: ">=8.24.0"
     eslint-import-resolver-typescript: "*"
     eslint-plugin-eslint-comments: "*"
-    eslint-plugin-functional: ">=5.0.0"
+    eslint-plugin-functional: ">=5.0.0-beta.14"
     eslint-plugin-import: "*"
     eslint-plugin-jsdoc: "*"
     eslint-plugin-markdown: "*"
@@ -1255,9 +1255,8 @@ __metadata:
     eslint-plugin-optimize-regex: "*"
     eslint-plugin-promise: "*"
     eslint-plugin-sonarjs: "*"
-    eslint-plugin-tsdoc: "*"
     eslint-plugin-unicorn: "*"
-  checksum: 14f980463dda41db41308702486c1770ab2d9b041b4358a96309b4a9a2bcc25e6b33d29f5478a6638415b8f94433417c62c640e75220f3568a9ce03e5249b5b2
+  checksum: 6c28915881c57f596f6f297117ac22eff83cf0e6dad13503cd53aabdf15963a41366018671dbd880520ac25f59178069232254ecd8b1c5a246b46a4aef60cf3f
   languageName: node
   linkType: hard
 
@@ -9068,7 +9067,7 @@ __metadata:
     "@commitlint/cli": 17.2.0
     "@commitlint/config-conventional": 17.2.0
     "@cspell/dict-cryptocurrencies": 3.0.1
-    "@rebeccastevens/eslint-config": 1.4.4
+    "@rebeccastevens/eslint-config": 1.4.5
     "@rollup/plugin-node-resolve": 15.0.1
     "@rollup/plugin-typescript": 9.0.2
     "@semantic-release/changelog": 6.0.1
