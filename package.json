@@ -65,7 +65,7 @@
     "@semantic-release/github": "8.0.7",
     "@semantic-release/npm": "9.0.2",
     "@semantic-release/release-notes-generator": "10.0.3",
-    "@types/node": "16.18.13",
+    "@types/node": "16.18.16",
     "@types/rollup-plugin-auto-external": "2.0.2",
     "@typescript-eslint/eslint-plugin": "5.53.0",
     "@typescript-eslint/parser": "5.53.0",
