@@ -1658,10 +1658,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:16.18.21":
-  version: 16.18.21
-  resolution: "@types/node@npm:16.18.21"
-  checksum: 152e7976f30b4e599d37e5a92a0c62dbe0751a63dab1aef44a0c2db940fa6f79a23be9783886b6afe34aa20485679c6bdd7b787b304fdbb05e72326c95d2b255
+"@types/node@npm:16.18.23":
+  version: 16.18.23
+  resolution: "@types/node@npm:16.18.23"
+  checksum: 00e51db28fc7a182747f37215b3f25400b1c7a8525e09fa14e55be5798891a118ebf636a49d3197335a3580fcb8222fd4ecc20c2ccff69f1c0d233fc5697465d
   languageName: node
   linkType: hard
 
@@ -9557,7 +9557,7 @@ __metadata:
     "@semantic-release/github": 8.0.7
     "@semantic-release/npm": 10.0.2
     "@semantic-release/release-notes-generator": 10.0.3
-    "@types/node": 16.18.21
+    "@types/node": 16.18.23
     "@types/rollup-plugin-auto-external": 2.0.2
     "@typescript-eslint/eslint-plugin": 5.56.0
     "@typescript-eslint/parser": 5.56.0
