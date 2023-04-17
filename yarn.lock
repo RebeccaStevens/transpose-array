@@ -3955,9 +3955,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-functional@npm:5.0.7":
-  version: 5.0.7
-  resolution: "eslint-plugin-functional@npm:5.0.7"
+"eslint-plugin-functional@npm:5.0.8":
+  version: 5.0.8
+  resolution: "eslint-plugin-functional@npm:5.0.8"
   dependencies:
     "@typescript-eslint/type-utils": ^5.50.0
     "@typescript-eslint/utils": ^5.50.0
@@ -3971,7 +3971,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: c8992a89ba682ead6a17f0386536cd948a6e2568bce7814ea419ad280afc9b178eed7c24a47e8d22d808fa2e12978a33a5ef4f53219da8e3129855f42e1e5dfe
+  checksum: e2eaed63cbdfff78dcf0aa3751b36f82e0fe1516c57378a51b547d2988ced330e05f7e1a165ce5a563cdad15ebae27fd2ae17cff2473c18d4d8312cec14a23f5
   languageName: node
   linkType: hard
 
@@ -9615,7 +9615,7 @@ __metadata:
     eslint-import-resolver-typescript: 3.5.5
     eslint-plugin-ava: 14.0.0
     eslint-plugin-eslint-comments: 3.2.0
-    eslint-plugin-functional: 5.0.7
+    eslint-plugin-functional: 5.0.8
     eslint-plugin-import: 2.27.5
     eslint-plugin-jsdoc: 40.1.2
     eslint-plugin-markdown: 3.0.0
