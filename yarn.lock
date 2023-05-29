@@ -3525,31 +3525,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"denoify@npm:1.5.3":
-  version: 1.5.3
-  resolution: "denoify@npm:1.5.3"
+"denoify@npm:1.5.7":
+  version: 1.5.7
+  resolution: "denoify@npm:1.5.7"
   dependencies:
     "@octokit/rest": ^18.0.0
     "@types/comment-json": ^1.1.1
     commander: ^4.1.1
     comment-json: ^3.0.2
     cosmiconfig: ^7.0.1
-    evt: ^2.4.18
+    evt: 2.4.22
     get-github-default-branch-name: ^0.0.4
     gitignore-parser: 0.0.2
     glob: ^7.1.6
-    minimal-polyfills: ^2.2.2
+    minimal-polyfills: ^2.2.3
     node-fetch: ^2.6.7
     parse-dont-validate: ^4.0.1
     path-depth: ^1.0.0
     scripting-tools: ^0.19.14
-    tsafe: ^1.6.0
+    tsafe: ^1.6.4
     url-join: ^4.0.1
   bin:
     denoify: bin/denoify.js
     enable_short_npm_import_path: bin/enable_short_npm_import_path.js
     remove_deno_dist_from_gitignore: bin/remove_deno_dist_from_gitignore.js
-  checksum: 5d26bc5e5c73daa9f5bdc92cf83cff400444a9397c56ae86c3099d6ee6a6d7bed309440a65cf1fc52fe8adf002a27991c3c9c05f1604a5b774f849c312b59ae5
+  checksum: 663909e8b7eecc39697b38449c2d169e448039c6ae12d5d1636601d61109d9a43e6b81c944519bdfb15bca1959e98212ddd71ad51858d7d0b7624670976c6873
   languageName: node
   linkType: hard
 
@@ -4340,14 +4340,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"evt@npm:^2.4.18":
-  version: 2.4.18
-  resolution: "evt@npm:2.4.18"
+"evt@npm:2.4.22":
+  version: 2.4.22
+  resolution: "evt@npm:2.4.22"
   dependencies:
-    minimal-polyfills: ^2.2.2
-    run-exclusive: ^2.2.18
-    tsafe: ^1.6.0
-  checksum: 042f150495dc555b27eaf40d26ac213df35393de129d97fef427cf7ad3eb7b09b2338536e0b8aa97c8d62cd6457b7cddbad9a855a182f901da3a8b5f3908dcd7
+    minimal-polyfills: ^2.2.3
+    run-exclusive: ^2.2.19
+    tsafe: ^1.6.4
+  checksum: f85235ae1efd3d49aef3239187d6ef811bd7d0e6edf7b6e76506180834bf39174955d5d9f059ed34a3a2eb113b97055481cdff26aec0fa5c0656920eb2d247f1
   languageName: node
   linkType: hard
 
@@ -6957,10 +6957,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimal-polyfills@npm:^2.2.1, minimal-polyfills@npm:^2.2.2":
-  version: 2.2.2
-  resolution: "minimal-polyfills@npm:2.2.2"
-  checksum: e3beab30d0e144e0e17d7a559f1c787645003fa483edcdd270a98c7fe935afeccd5af591d72a6dc73fed640b7d2c12ec653f3d524685a7240008d3143efd2050
+"minimal-polyfills@npm:^2.2.3":
+  version: 2.2.3
+  resolution: "minimal-polyfills@npm:2.2.3"
+  checksum: 076072cf61e47bd9cb96bd2980971a5fbab65eec1e02ffefab5683806985488f6b96a9fef0af568d32fee8bbcd29e9cb5b638eecf892ee3bff49835221fc1d61
   languageName: node
   linkType: hard
 
@@ -8814,12 +8814,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"run-exclusive@npm:^2.2.18":
-  version: 2.2.18
-  resolution: "run-exclusive@npm:2.2.18"
+"run-exclusive@npm:^2.2.19":
+  version: 2.2.19
+  resolution: "run-exclusive@npm:2.2.19"
   dependencies:
-    minimal-polyfills: ^2.2.1
-  checksum: 1d684686bdc5e18082f945a871e2293ad371f87850c212af1dcd3d846b654dc58bdcf1f4117c1795bad32f7518518cda72d4746303a8446343a079f7f2f8c8f0
+    minimal-polyfills: ^2.2.3
+  checksum: edb1501ecd7a146df55f9f75da5d7ceca76ff887b00ccb1e0e9a422bd21f35f98df4cf0ddf3f68874d665471be1bdb9d508be7c3c43263a9a4b76ec715e17c67
   languageName: node
   linkType: hard
 
@@ -9660,7 +9660,7 @@ __metadata:
     c8: 7.13.0
     commitizen: 4.3.0
     cspell: 6.31.1
-    denoify: 1.5.3
+    denoify: 1.5.7
     eslint: 8.41.0
     eslint-config-prettier: 8.8.0
     eslint-import-resolver-typescript: 3.5.5
@@ -9752,10 +9752,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsafe@npm:^1.6.0":
-  version: 1.6.0
-  resolution: "tsafe@npm:1.6.0"
-  checksum: 1cea91c1b8a2d4d4ab37f940bbbe297890c5f83cf5415f1e7450373b47f621ebb5da962786a0f3eb1756ebf947750d3ece2b5bb64740c153cc1390cf41202fe1
+"tsafe@npm:^1.6.4":
+  version: 1.6.4
+  resolution: "tsafe@npm:1.6.4"
+  checksum: 9a6194442248451891f3fcab4d77ee81be767334023f62af885187071bb3d457d030b43871cf303685c45c5d6389bc230730ac94d257b1d0f2f91f40c2d7fbc1
   languageName: node
   linkType: hard
 
