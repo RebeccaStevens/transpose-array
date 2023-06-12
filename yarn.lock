@@ -3533,9 +3533,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"denoify@npm:1.5.7":
-  version: 1.5.7
-  resolution: "denoify@npm:1.5.7"
+"denoify@npm:1.5.8":
+  version: 1.5.8
+  resolution: "denoify@npm:1.5.8"
   dependencies:
     "@octokit/rest": ^18.0.0
     "@types/comment-json": ^1.1.1
@@ -3548,7 +3548,6 @@ __metadata:
     glob: ^7.1.6
     minimal-polyfills: ^2.2.3
     node-fetch: ^2.6.7
-    parse-dont-validate: ^4.0.1
     path-depth: ^1.0.0
     scripting-tools: ^0.19.14
     tsafe: ^1.6.4
@@ -3557,7 +3556,7 @@ __metadata:
     denoify: bin/denoify.js
     enable_short_npm_import_path: bin/enable_short_npm_import_path.js
     remove_deno_dist_from_gitignore: bin/remove_deno_dist_from_gitignore.js
-  checksum: 663909e8b7eecc39697b38449c2d169e448039c6ae12d5d1636601d61109d9a43e6b81c944519bdfb15bca1959e98212ddd71ad51858d7d0b7624670976c6873
+  checksum: e205975d9f0b1b3dd58de0980387cd2f592346bc8e766a29d69e3b9a9f7211fb5f2a33ae340750f003f666e2ca923f4f33cf2029f05545d8dbcedf6a03c2cc43
   languageName: node
   linkType: hard
 
@@ -7952,13 +7951,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"parse-dont-validate@npm:^4.0.1":
-  version: 4.0.1
-  resolution: "parse-dont-validate@npm:4.0.1"
-  checksum: b07f0978f8bb9605dd53b5140bccafd2d991a917a91f2da2ddd1fe8387717a2fcba66cf7c635b0e67fb0c2c3a8914573f686db57d1787df4b62848d3371f65e2
-  languageName: node
-  linkType: hard
-
 "parse-entities@npm:^2.0.0":
   version: 2.0.0
   resolution: "parse-entities@npm:2.0.0"
@@ -9657,7 +9649,7 @@ __metadata:
     c8: 7.14.0
     commitizen: 4.3.0
     cspell: 6.31.1
-    denoify: 1.5.7
+    denoify: 1.5.8
     eslint: 8.42.0
     eslint-config-prettier: 8.8.0
     eslint-import-resolver-typescript: 3.5.5
