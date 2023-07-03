@@ -8801,9 +8801,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:3.25.2, rollup@npm:>=2.0.0":
-  version: 3.25.2
-  resolution: "rollup@npm:3.25.2"
+"rollup@npm:3.26.0, rollup@npm:>=2.0.0":
+  version: 3.26.0
+  resolution: "rollup@npm:3.26.0"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -8811,7 +8811,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 80034ec8d71022b816cd31c24455d7b06ab8d8ff49ab9e583ceb03e2ebd0f6ad00824c6257fa4f8d12a12c2dceda999cec9509c1fff956e8a707b0add1bf2d9c
+  checksum: 2d00f1ec8f5b3e84b005b7158446aacfbe669b61a55cea26d4cfb7014fed9169d78dffa8f845c8ef2c8cbc596b9de6e9f925597b87e7ef9b7de4c7da21f188ad
   languageName: node
   linkType: hard
 
@@ -9706,7 +9706,7 @@ __metadata:
     prettier: 2.8.8
     prettier-plugin-packagejson: 2.4.3
     rimraf: 5.0.1
-    rollup: 3.25.2
+    rollup: 3.26.0
     rollup-plugin-dts: 5.3.0
     semantic-release: 21.0.6
     ts-node: 10.9.1
