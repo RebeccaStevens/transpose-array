@@ -93,7 +93,7 @@
     "if-env-defined": "1.0.0",
     "lint-staged": "13.2.3",
     "markdownlint-cli": "0.35.0",
-    "marked": "5.1.2",
+    "marked": "7.0.0",
     "prettier": "2.8.8",
     "prettier-plugin-packagejson": "2.4.5",
     "rimraf": "5.0.1",
