@@ -6944,12 +6944,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:7.0.0":
-  version: 7.0.0
-  resolution: "marked@npm:7.0.0"
+"marked@npm:7.0.2":
+  version: 7.0.2
+  resolution: "marked@npm:7.0.2"
   bin:
     marked: bin/marked.js
-  checksum: 14b795f827955674510c70132a4358a2e4759cafbbb134f2b3c958961acec0ee4c39b90fe8ea627d607207219791e509322c0b20e447f39516c5f0eb76a03d10
+  checksum: dabfd499c4852d671b73fbd10081a93349f74e4141a29697be99d33327e9aacd30e794bcc771a397ceb8060e5205e2f82862e1623c333802a3be0594134ba6c7
   languageName: node
   linkType: hard
 
@@ -9863,7 +9863,7 @@ __metadata:
     if-env-defined: 1.0.0
     lint-staged: 13.2.3
     markdownlint-cli: 0.35.0
-    marked: 7.0.0
+    marked: 7.0.2
     prettier: 2.8.8
     prettier-plugin-packagejson: 2.4.5
     rimraf: 5.0.1
