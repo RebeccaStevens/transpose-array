@@ -380,14 +380,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cspell/dict-cryptocurrencies@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@cspell/dict-cryptocurrencies@npm:3.0.1"
-  checksum: 5d646f569e8dc5998de8a508ff3de39db5f5a5db0a846ee4fc750ea3880080d922d5c28fdce38f93910eaacde2723e2fe4c305d50b3f9d53b817ce33a3bed66a
-  languageName: node
-  linkType: hard
-
-"@cspell/dict-cryptocurrencies@npm:^4.0.0":
+"@cspell/dict-cryptocurrencies@npm:4.0.0, @cspell/dict-cryptocurrencies@npm:^4.0.0":
   version: 4.0.0
   resolution: "@cspell/dict-cryptocurrencies@npm:4.0.0"
   checksum: c565a660b62a5ab2d597abaaef7f277cfba05e0617064dd526aadf9ba64306ab16f9fa4adf5ad8b3e79310cf127f737e5f876d4424efa7da65e403817f4e184c
@@ -9903,7 +9896,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": 17.7.1
     "@commitlint/config-conventional": 17.7.0
-    "@cspell/dict-cryptocurrencies": 3.0.1
+    "@cspell/dict-cryptocurrencies": 4.0.0
     "@rebeccastevens/eslint-config": 1.5.2
     "@rollup/plugin-node-resolve": 15.2.1
     "@rollup/plugin-typescript": 11.1.0
