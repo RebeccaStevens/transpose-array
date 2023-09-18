@@ -73,7 +73,7 @@
     "c8": "8.0.1",
     "commitizen": "4.3.0",
     "cspell": "7.3.6",
-    "denoify": "1.6.1",
+    "denoify": "1.6.4",
     "eslint": "8.49.0",
     "eslint-config-prettier": "9.0.0",
     "eslint-import-resolver-typescript": "3.6.0",
