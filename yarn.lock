@@ -3607,16 +3607,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"denoify@npm:1.6.1":
-  version: 1.6.1
-  resolution: "denoify@npm:1.6.1"
+"denoify@npm:1.6.4":
+  version: 1.6.4
+  resolution: "denoify@npm:1.6.4"
   dependencies:
     "@octokit/rest": ^18.0.0
     "@types/comment-json": ^1.1.1
     commander: ^4.1.1
     comment-json: ^3.0.2
     cosmiconfig: ^7.0.1
-    evt: 2.4.22
+    evt: 2.5.2
     get-github-default-branch-name: ^0.0.4
     gitignore-parser: 0.0.2
     glob: ^7.1.6
@@ -3624,13 +3624,13 @@ __metadata:
     node-fetch: ^2.6.7
     path-depth: ^1.0.0
     scripting-tools: ^0.19.14
-    tsafe: ^1.6.4
+    tsafe: ^1.6.5
     url-join: ^4.0.1
   bin:
     denoify: bin/denoify.js
     enable_short_npm_import_path: bin/enable_short_npm_import_path.js
     remove_deno_dist_from_gitignore: bin/remove_deno_dist_from_gitignore.js
-  checksum: 2450a1dbc00423eb804afa3e846bb9028039bd57d238a6fa55147c6ac541ee133e8df7efc0afd543cece509ed76f497063012f5ce5f3b4ced62503b2bd3baef2
+  checksum: defff8d9e125f9655c24c5ad338a12f6d747501264685eeba1900be7f0469ddb1d2dab35587a8a17e90ad598bfc00e3a2a0f14164b7bd52b20b5cbb4d8c37c63
   languageName: node
   linkType: hard
 
@@ -4461,14 +4461,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"evt@npm:2.4.22":
-  version: 2.4.22
-  resolution: "evt@npm:2.4.22"
+"evt@npm:2.5.2":
+  version: 2.5.2
+  resolution: "evt@npm:2.5.2"
   dependencies:
     minimal-polyfills: ^2.2.3
     run-exclusive: ^2.2.19
     tsafe: ^1.6.4
-  checksum: f85235ae1efd3d49aef3239187d6ef811bd7d0e6edf7b6e76506180834bf39174955d5d9f059ed34a3a2eb113b97055481cdff26aec0fa5c0656920eb2d247f1
+  checksum: 1e9b2e96e19ff14935b0567351ef538ac92eb912a2a16e88a3886d9fabc251ee0298d22468c23c45b52e44794050d7fec07efc4a5b7207adcf1c94c4bb327a3c
   languageName: node
   linkType: hard
 
@@ -9940,7 +9940,7 @@ __metadata:
     c8: 8.0.1
     commitizen: 4.3.0
     cspell: 7.3.6
-    denoify: 1.6.1
+    denoify: 1.6.4
     eslint: 8.49.0
     eslint-config-prettier: 9.0.0
     eslint-import-resolver-typescript: 3.6.0
@@ -10032,10 +10032,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsafe@npm:^1.6.4":
-  version: 1.6.4
-  resolution: "tsafe@npm:1.6.4"
-  checksum: 9a6194442248451891f3fcab4d77ee81be767334023f62af885187071bb3d457d030b43871cf303685c45c5d6389bc230730ac94d257b1d0f2f91f40c2d7fbc1
+"tsafe@npm:^1.6.4, tsafe@npm:^1.6.5":
+  version: 1.6.5
+  resolution: "tsafe@npm:1.6.5"
+  checksum: 189600dd1278d0b29ae8af70a774f07581d9795974fadc901b58b961ff2d99d120fc79fbdf9055a7af083d5d633e52536f188245bc8caf9de7be33c69e9bcd2f
   languageName: node
   linkType: hard
 
