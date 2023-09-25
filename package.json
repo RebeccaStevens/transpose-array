@@ -62,7 +62,7 @@
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "11.0.0",
     "@semantic-release/git": "10.0.1",
-    "@semantic-release/github": "9.0.6",
+    "@semantic-release/github": "9.0.7",
     "@semantic-release/npm": "11.0.0",
     "@semantic-release/release-notes-generator": "12.0.0",
     "@types/node": "16.18.54",
@@ -99,7 +99,7 @@
     "rimraf": "5.0.1",
     "rollup": "3.29.3",
     "rollup-plugin-dts": "6.0.2",
-    "semantic-release": "22.0.0",
+    "semantic-release": "22.0.5",
     "ts-node": "10.9.1",
     "tsd": "0.29.0",
     "typescript": "5.1.6"
