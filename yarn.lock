@@ -3733,16 +3733,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"denoify@npm:1.6.4":
-  version: 1.6.4
-  resolution: "denoify@npm:1.6.4"
+"denoify@npm:1.6.5":
+  version: 1.6.5
+  resolution: "denoify@npm:1.6.5"
   dependencies:
     "@octokit/rest": ^18.0.0
     "@types/comment-json": ^1.1.1
     commander: ^4.1.1
     comment-json: ^3.0.2
     cosmiconfig: ^7.0.1
-    evt: 2.5.2
+    evt: 2.5.3
     get-github-default-branch-name: ^0.0.4
     gitignore-parser: 0.0.2
     glob: ^7.1.6
@@ -3756,7 +3756,7 @@ __metadata:
     denoify: bin/denoify.js
     enable_short_npm_import_path: bin/enable_short_npm_import_path.js
     remove_deno_dist_from_gitignore: bin/remove_deno_dist_from_gitignore.js
-  checksum: defff8d9e125f9655c24c5ad338a12f6d747501264685eeba1900be7f0469ddb1d2dab35587a8a17e90ad598bfc00e3a2a0f14164b7bd52b20b5cbb4d8c37c63
+  checksum: 0dde2f6e43bd8d17082e870ffddbc8feb3947863a72646eed6f558474e5a2f4570f1f31501c4a80ad0835c53e267d5678f80212521f7a6eb28f03ccec43a2706
   languageName: node
   linkType: hard
 
@@ -4594,14 +4594,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"evt@npm:2.5.2":
-  version: 2.5.2
-  resolution: "evt@npm:2.5.2"
+"evt@npm:2.5.3":
+  version: 2.5.3
+  resolution: "evt@npm:2.5.3"
   dependencies:
     minimal-polyfills: ^2.2.3
     run-exclusive: ^2.2.19
-    tsafe: ^1.6.4
-  checksum: 1e9b2e96e19ff14935b0567351ef538ac92eb912a2a16e88a3886d9fabc251ee0298d22468c23c45b52e44794050d7fec07efc4a5b7207adcf1c94c4bb327a3c
+    tsafe: ^1.6.5
+  checksum: a5403cf049bcd2c93052b7207417dcfa9ab9e664f1b53027a100ea63359fed24ea733251b869b886e0d2a3dc89558d7d42fc08b325b93a5a05ac2996b91ef5dd
   languageName: node
   linkType: hard
 
@@ -10123,7 +10123,7 @@ __metadata:
     c8: 8.0.1
     commitizen: 4.3.0
     cspell: 7.3.7
-    denoify: 1.6.4
+    denoify: 1.6.5
     eslint: 8.50.0
     eslint-config-prettier: 9.0.0
     eslint-import-resolver-typescript: 3.6.1
@@ -10215,7 +10215,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsafe@npm:^1.6.4, tsafe@npm:^1.6.5":
+"tsafe@npm:^1.6.5":
   version: 1.6.5
   resolution: "tsafe@npm:1.6.5"
   checksum: 189600dd1278d0b29ae8af70a774f07581d9795974fadc901b58b961ff2d99d120fc79fbdf9055a7af083d5d633e52536f188245bc8caf9de7be33c69e9bcd2f
