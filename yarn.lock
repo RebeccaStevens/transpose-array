@@ -1828,12 +1828,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/rollup-plugin-auto-external@npm:2.0.2":
-  version: 2.0.2
-  resolution: "@types/rollup-plugin-auto-external@npm:2.0.2"
+"@types/rollup-plugin-auto-external@npm:2.0.3":
+  version: 2.0.3
+  resolution: "@types/rollup-plugin-auto-external@npm:2.0.3"
   dependencies:
     rollup: ">=2.0.0"
-  checksum: 0a59dc0c3a69a25eaa745c68bb4c1aadc37d5608f8d924101f7e2dfd61e4d1cfd39703bc7c3b2734653f189ad4f80f57f430d08f19bf61d72a3d531ebd85f1c4
+  checksum: 1038d9894f31c89355e6052aa98710d27be4c8ec174edd220656175d774b9a9375fee0e04dafffa2c5dcd647297338a5f63c9a3963ae2d450e6414889441eb6e
   languageName: node
   linkType: hard
 
@@ -10116,7 +10116,7 @@ __metadata:
     "@semantic-release/npm": 11.0.0
     "@semantic-release/release-notes-generator": 12.0.0
     "@types/node": 16.18.55
-    "@types/rollup-plugin-auto-external": 2.0.2
+    "@types/rollup-plugin-auto-external": 2.0.3
     "@typescript-eslint/eslint-plugin": 5.62.0
     "@typescript-eslint/parser": 5.62.0
     ava: 5.3.1
