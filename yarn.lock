@@ -3838,9 +3838,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"denoify@npm:1.6.5":
-  version: 1.6.5
-  resolution: "denoify@npm:1.6.5"
+"denoify@npm:1.6.6":
+  version: 1.6.6
+  resolution: "denoify@npm:1.6.6"
   dependencies:
     "@octokit/rest": ^18.0.0
     "@types/comment-json": ^1.1.1
@@ -3848,7 +3848,7 @@ __metadata:
     comment-json: ^3.0.2
     cosmiconfig: ^7.0.1
     evt: 2.5.3
-    get-github-default-branch-name: ^0.0.4
+    get-github-default-branch-name: ^1.0.0
     gitignore-parser: 0.0.2
     glob: ^7.1.6
     minimal-polyfills: ^2.2.3
@@ -3861,7 +3861,7 @@ __metadata:
     denoify: bin/denoify.js
     enable_short_npm_import_path: bin/enable_short_npm_import_path.js
     remove_deno_dist_from_gitignore: bin/remove_deno_dist_from_gitignore.js
-  checksum: 0dde2f6e43bd8d17082e870ffddbc8feb3947863a72646eed6f558474e5a2f4570f1f31501c4a80ad0835c53e267d5678f80212521f7a6eb28f03ccec43a2706
+  checksum: a0f5e5880d584a81c29bc534cbde6ba5fe85c065210ba072d323cdd831a03ea438d97a9b09bd1e3882a39b3d2ec3068cb71774b01b681e72c8a3c64fe12b1ad4
   languageName: node
   linkType: hard
 
@@ -5194,13 +5194,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"get-github-default-branch-name@npm:^0.0.4":
-  version: 0.0.4
-  resolution: "get-github-default-branch-name@npm:0.0.4"
+"get-github-default-branch-name@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "get-github-default-branch-name@npm:1.0.0"
   dependencies:
     "@octokit/rest": ^18.0.0
     scripting-tools: ^0.19.12
-  checksum: 36afb774935e7649f29d83d2703acf519724065125b437b11c4cca3891051a43c98940a134558d7f1714e0443c1e77755e9fcc6a5d1f9654211fb8d5095a6db8
+  checksum: bffbd3310604825acbc8ec6af61c84c469fd7baddc282c74663d70d4c0d4d6aaff1c26f4956973f2f7222d07da51929a69be7ec1ee60c690160194ffd04db559
   languageName: node
   linkType: hard
 
@@ -10264,7 +10264,7 @@ __metadata:
     c8: 8.0.1
     commitizen: 4.3.0
     cspell: 7.3.8
-    denoify: 1.6.5
+    denoify: 1.6.6
     eslint: 8.51.0
     eslint-config-prettier: 9.0.0
     eslint-import-resolver-typescript: 3.6.1
