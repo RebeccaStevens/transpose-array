@@ -3831,16 +3831,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"denoify@npm:1.6.6":
-  version: 1.6.6
-  resolution: "denoify@npm:1.6.6"
+"denoify@npm:1.6.9":
+  version: 1.6.9
+  resolution: "denoify@npm:1.6.9"
   dependencies:
     "@octokit/rest": "npm:^18.0.0"
     "@types/comment-json": "npm:^1.1.1"
     commander: "npm:^4.1.1"
     comment-json: "npm:^3.0.2"
     cosmiconfig: "npm:^7.0.1"
-    evt: "npm:2.5.3"
+    evt: "npm:2.5.7"
     get-github-default-branch-name: "npm:^1.0.0"
     gitignore-parser: "npm:0.0.2"
     glob: "npm:^7.1.6"
@@ -3848,13 +3848,13 @@ __metadata:
     node-fetch: "npm:^2.6.7"
     path-depth: "npm:^1.0.0"
     scripting-tools: "npm:^0.19.14"
-    tsafe: "npm:^1.6.5"
+    tsafe: "npm:^1.6.6"
     url-join: "npm:^4.0.1"
   bin:
     denoify: bin/denoify.js
     enable_short_npm_import_path: bin/enable_short_npm_import_path.js
     remove_deno_dist_from_gitignore: bin/remove_deno_dist_from_gitignore.js
-  checksum: 8/a0f5e5880d584a81c29bc534cbde6ba5fe85c065210ba072d323cdd831a03ea438d97a9b09bd1e3882a39b3d2ec3068cb71774b01b681e72c8a3c64fe12b1ad4
+  checksum: e7a3b54e46ab57f3688d4a32711a4fe765ce96fbbf293519180b566b2619d3630402945ac6026d29926c9088ce7a8b4e60409616c3ac4f71da8b8b50e7563f2f
   languageName: node
   linkType: hard
 
@@ -4693,14 +4693,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"evt@npm:2.5.3":
-  version: 2.5.3
-  resolution: "evt@npm:2.5.3"
+"evt@npm:2.5.7":
+  version: 2.5.7
+  resolution: "evt@npm:2.5.7"
   dependencies:
     minimal-polyfills: "npm:^2.2.3"
     run-exclusive: "npm:^2.2.19"
-    tsafe: "npm:^1.6.5"
-  checksum: 8/a5403cf049bcd2c93052b7207417dcfa9ab9e664f1b53027a100ea63359fed24ea733251b869b886e0d2a3dc89558d7d42fc08b325b93a5a05ac2996b91ef5dd
+    tsafe: "npm:^1.6.6"
+  checksum: 3b9e04eb0bdfd3b47de0fb3ef78577e2fc09490d601b9af4fc4368d8f59dc1c787c2e1152a11e5c4ade5e610f5b4619d224e48b30382ee9951f39492606687ac
   languageName: node
   linkType: hard
 
@@ -10213,7 +10213,7 @@ __metadata:
     c8: "npm:8.0.1"
     commitizen: "npm:4.3.0"
     cspell: "npm:7.3.8"
-    denoify: "npm:1.6.6"
+    denoify: "npm:1.6.9"
     eslint: "npm:8.52.0"
     eslint-config-prettier: "npm:9.0.0"
     eslint-import-resolver-typescript: "npm:3.6.1"
@@ -10305,10 +10305,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsafe@npm:^1.6.5":
-  version: 1.6.5
-  resolution: "tsafe@npm:1.6.5"
-  checksum: 8/189600dd1278d0b29ae8af70a774f07581d9795974fadc901b58b961ff2d99d120fc79fbdf9055a7af083d5d633e52536f188245bc8caf9de7be33c69e9bcd2f
+"tsafe@npm:^1.6.6":
+  version: 1.6.6
+  resolution: "tsafe@npm:1.6.6"
+  checksum: 916cd0f4371fade50a03932dd80dc0b864e70b91a3db9e5834b1b95b7433d14b91c383a93d89156505b5e6649679ec15e76a2b10d0a43a202e572b4df44dd1cd
   languageName: node
   linkType: hard
 
