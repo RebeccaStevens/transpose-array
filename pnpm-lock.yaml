@@ -126,8 +126,8 @@ devDependencies:
     specifier: 0.37.0
     version: 0.37.0
   marked:
-    specifier: 9.1.2
-    version: 9.1.2
+    specifier: 12.0.0
+    version: 12.0.0
   prettier:
     specifier: 2.8.8
     version: 2.8.8
@@ -5122,6 +5122,12 @@ packages:
       marked: 9.1.2
       node-emoji: 2.1.3
       supports-hyperlinks: 3.0.0
+    dev: true
+
+  /marked@12.0.0:
+    resolution: {integrity: sha512-Vkwtq9rLqXryZnWaQc86+FHLC6tr/fycMfYAhiOIXkrNmeGAyhSxjqu0Rs1i0bBqw5u0S7+lV9fdH2ZSVaoa0w==}
+    engines: {node: '>= 18'}
+    hasBin: true
     dev: true
 
   /marked@9.1.2:
