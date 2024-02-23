@@ -8,7 +8,7 @@
     "importHelpers": false,
     "lib": ["ESNext"],
     "module": "ESNext",
-    "moduleResolution": "Node16",
+    "moduleResolution": "Bundler",
     "newLine": "LF",
     "noEmitOnError": true,
     "noImplicitReturns": true,

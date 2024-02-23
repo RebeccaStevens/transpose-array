@@ -4,7 +4,7 @@ const avaConfig = {
   extensions: {
     ts: "module",
   },
-  nodeArguments: ["--loader=ts-node/esm"],
+  nodeArguments: ["--loader=ts-node/esm", "--experimental-specifier-resolution=node"],
   environmentVariables: {
     TS_NODE_PROJECT: "tests/tsconfig.json",
   },
