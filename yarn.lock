@@ -1806,10 +1806,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsd/typescript@npm:~5.2.2":
-  version: 5.2.2
-  resolution: "@tsd/typescript@npm:5.2.2"
-  checksum: 8/b72d6311356a1fabcd78ffeb878a6ba3d51804d02fefdc6cf36ae8957d97b13823b9e396f550e37c2d1b405b6ad0fa190f4ec791bc6d730b02b22e39b33a4c76
+"@tsd/typescript@npm:~5.3.3":
+  version: 5.3.3
+  resolution: "@tsd/typescript@npm:5.3.3"
+  checksum: ebf6dd4d1602d9ca0e10971173c272554225a284b21d38a18bada33429dee2e25c45e8c8b2cb055d2b69c56dbea55c0bd77e76a6074118231b05246e26509dca
   languageName: node
   linkType: hard
 
@@ -10241,7 +10241,7 @@ __metadata:
     rollup-plugin-dts: "npm:6.1.0"
     semantic-release: "npm:22.0.5"
     ts-node: "npm:10.9.1"
-    tsd: "npm:0.29.0"
+    tsd: "npm:0.30.6"
     typescript: "npm:5.1.6"
   languageName: unknown
   linkType: soft
@@ -10324,11 +10324,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsd@npm:0.29.0":
-  version: 0.29.0
-  resolution: "tsd@npm:0.29.0"
+"tsd@npm:0.30.6":
+  version: 0.30.6
+  resolution: "tsd@npm:0.30.6"
   dependencies:
-    "@tsd/typescript": "npm:~5.2.2"
+    "@tsd/typescript": "npm:~5.3.3"
     eslint-formatter-pretty: "npm:^4.1.0"
     globby: "npm:^11.0.1"
     jest-diff: "npm:^29.0.3"
@@ -10337,7 +10337,7 @@ __metadata:
     read-pkg-up: "npm:^7.0.0"
   bin:
     tsd: dist/cli.js
-  checksum: 8/66b5f5f04c46b4c5cea28faba54d7372cdf3126876d968958eb3fb8dab0247ef50a466f10d59c6aea60751c35a518a594a06eecdb5e274cb8d739f804fc62da1
+  checksum: 9b45d337848c0083ef7f427b44a8f3c8cabf7aa21524420157eb581387c1c726ea6cb519a2c07866647a2ffb81af81aacaff44157959cd0078bc37bcf9023231
   languageName: node
   linkType: hard
 
