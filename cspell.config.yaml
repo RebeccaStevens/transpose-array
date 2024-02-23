@@ -50,3 +50,8 @@ ignoreRegExpList:
   - /\b[A-Za-z0-9]{32,}\b/ # ignore long string of hex characters
   - /`[^`]*`/ # ignore things in `...`
   - /```[\w\W]*?```/ # ignore things in ```...```
+
+overrides:
+  - filename: ".github/(actions|workflows)/*.yml"
+    ignoreRegExpList:
+      - /\b(?:[A-Za-z0-9\-_])+\/(?:[A-Za-z0-9\-_])+@v\d+(?:\.\d+){0,2}\b/ui # ignore action

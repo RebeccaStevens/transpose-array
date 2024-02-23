@@ -1,0 +1,42 @@
+name: Test
+
+on:
+  pull_request:
+  workflow_dispatch:
+  workflow_call:
+
+jobs:
+  test_js:
+    name: "Test - Node: ${{ matrix.node_version }} - TS: ${{ matrix.ts_version }} - OS: ${{ matrix.os }}"
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - "ubuntu-latest"
+        node_version:
+          - "16"
+          - "18"
+          - "20"
+    runs-on: ${{ matrix.os }}
+    env:
+      REPORT_COVERAGE: ${{ fromJSON('["false", "true"]')[matrix.node_version == '18' && matrix.os == 'ubuntu-latest'] }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./.github/actions/prepare
+
+      - name: Build
+        run: pnpm run build
+
+      - name: Setup NodeJs ${{ matrix.node_version }} for testing
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node_version }}
+
+      - name: Run Tests
+        run: pnpm test
+
+      - name: Report coverage
+        uses: codecov/codecov-action@v3.1.4
+        if: env.REPORT_COVERAGE == 'true'
+        with:
+          file: coverage/lcov.info
