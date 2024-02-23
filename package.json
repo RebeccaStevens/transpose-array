@@ -61,8 +61,8 @@
     "type-check": "tsc --noEmit --skipLibCheck"
   },
   "devDependencies": {
-    "@commitlint/cli": "18.0.0",
-    "@commitlint/config-conventional": "18.0.0",
+    "@commitlint/cli": "18.6.1",
+    "@commitlint/config-conventional": "18.6.2",
     "@cspell/dict-cryptocurrencies": "4.0.0",
     "@rebeccastevens/eslint-config": "1.5.2",
     "@rollup/plugin-node-resolve": "15.2.3",
