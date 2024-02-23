@@ -63,7 +63,7 @@
   "devDependencies": {
     "@commitlint/cli": "18.0.0",
     "@commitlint/config-conventional": "18.0.0",
-    "@cspell/dict-cryptocurrencies": "4.0.0",
+    "@cspell/dict-cryptocurrencies": "5.0.0",
     "@rebeccastevens/eslint-config": "1.5.2",
     "@rollup/plugin-node-resolve": "15.2.3",
     "@rollup/plugin-typescript": "11.1.0",
