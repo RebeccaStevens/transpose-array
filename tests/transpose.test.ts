@@ -1,6 +1,6 @@
 import test from "ava";
 
-import transpose from "../src/index.js";
+import transpose from "../src";
 
 test("transpose empty", (t) => {
   const transposed = transpose([]);
@@ -33,6 +33,6 @@ test("transpose triangle", (t) => {
     },
     {
       instanceOf: TypeError,
-    }
+    },
   );
 });

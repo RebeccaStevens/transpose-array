@@ -1,6 +1,6 @@
 import test from "ava";
 
-import { transposeInPlace } from "../src/index.js";
+import { transposeInPlace } from "../src";
 
 test("transpose empty", (t) => {
   const value: any = [];
@@ -38,6 +38,6 @@ test("transpose triangle", (t) => {
     },
     {
       instanceOf: TypeError,
-    }
+    },
   );
 });

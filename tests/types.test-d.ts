@@ -1,6 +1,6 @@
 import { expectType } from "tsd";
 
-import transpose from "../src/index.js";
+import transpose from "../src";
 
 const data: any = [
   ["a", "b", "c", "d"],
@@ -23,7 +23,7 @@ expectType<Array<[string, string, string]>>(test3);
 const tupleTuple: [
   ["a", "b", "c", "d"],
   ["e", "f", "g", "h"],
-  ["i", "j", "k", "l"]
+  ["i", "j", "k", "l"],
 ] = data;
 const test4 = transpose(tupleTuple);
 expectType<

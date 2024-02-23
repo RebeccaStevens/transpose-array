@@ -1,4 +1,4 @@
-import type { Transpose } from "./types.js";
+import { type Transpose } from "./types.js";
 
 /**
  * Create a new array which is a transposed version of the given array.
@@ -8,7 +8,7 @@ import type { Transpose } from "./types.js";
  * @returns The transposed matrix.
  */
 export function transpose<T extends ReadonlyArray<ReadonlyArray<unknown>>>(
-  matrix: T
+  matrix: T,
 ): Transpose<T> {
   const rows = matrix.length;
   if (rows === 0) {
