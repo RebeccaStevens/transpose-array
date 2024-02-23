@@ -54,6 +54,7 @@
     "lint:prettier-fix": "prettier \"**/*\" --ignore-unknown --write",
     "lint:spelling": "cspell \"**\" \".github/**/*\"",
     "prepare": "husky install",
+    "release": "semantic-release",
     "spell-check": "cspell --config=.cspell.json \"**/*.{md,mts,ts}\"",
     "test": "npm run test:js && npm run test:types",
     "test:js": "c8 ava",
