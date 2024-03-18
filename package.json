@@ -108,7 +108,7 @@
     "rimraf": "5.0.5",
     "rollup": "4.13.0",
     "rollup-plugin-dts": "6.1.0",
-    "semantic-release": "23.0.2",
+    "semantic-release": "23.0.4",
     "ts-node": "10.9.2",
     "tsd": "0.30.7",
     "typescript": "5.4.2"
