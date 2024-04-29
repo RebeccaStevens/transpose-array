@@ -62,7 +62,7 @@
     "type-check": "tsc --noEmit --skipLibCheck"
   },
   "devDependencies": {
-    "@commitlint/cli": "19.2.2",
+    "@commitlint/cli": "19.3.0",
     "@commitlint/config-conventional": "19.2.2",
     "@cspell/dict-cryptocurrencies": "5.0.0",
     "@rebeccastevens/eslint-config": "2.0.11",
