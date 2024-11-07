@@ -126,8 +126,8 @@ devDependencies:
     specifier: 0.41.0
     version: 0.41.0
   marked:
-    specifier: 13.0.0
-    version: 13.0.0
+    specifier: 14.1.4
+    version: 14.1.4
   prettier:
     specifier: 3.3.2
     version: 3.3.2
@@ -5310,8 +5310,8 @@ packages:
     hasBin: true
     dev: true
 
-  /marked@13.0.0:
-    resolution: {integrity: sha512-VTeDCd9txf4KLLljUZ0nljE/Incb9SrWuueE44QVuU0pkOdh4sfCeW1Z6lPcxyDRSVY6rm8db/0OPaN75RNUmw==}
+  /marked@14.1.4:
+    resolution: {integrity: sha512-vkVZ8ONmUdPnjCKc5uTRvmkRbx4EAi2OkTOXmfTDhZz3OFqMNBM1oTTWwTr4HY4uAEojhzPf+Fy8F1DWa3Sndg==}
     engines: {node: '>= 18'}
     hasBin: true
     dev: true
