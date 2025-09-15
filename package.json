@@ -65,7 +65,7 @@
     "@commitlint/cli": "19.3.0",
     "@commitlint/config-conventional": "19.2.2",
     "@cspell/dict-cryptocurrencies": "5.0.0",
-    "@rebeccastevens/eslint-config": "2.0.11",
+    "@rebeccastevens/eslint-config": "3.8.0",
     "@rollup/plugin-node-resolve": "15.2.3",
     "@rollup/plugin-typescript": "11.1.6",
     "@semantic-release/changelog": "6.0.3",
