@@ -16,7 +16,7 @@ devDependencies:
     version: 5.0.0
   '@rebeccastevens/eslint-config':
     specifier: 2.0.11
-    version: 2.0.11(@typescript-eslint/eslint-plugin@7.18.0)(@typescript-eslint/parser@7.18.0)(eslint-import-resolver-typescript@3.6.1)(eslint-plugin-eslint-comments@3.2.0)(eslint-plugin-functional@6.6.0)(eslint-plugin-import@2.29.1)(eslint-plugin-jsdoc@48.3.0)(eslint-plugin-markdown@3.0.1)(eslint-plugin-n@17.9.0)(eslint-plugin-optimize-regex@1.2.1)(eslint-plugin-promise@6.2.0)(eslint-plugin-sonarjs@0.25.1)(eslint-plugin-unicorn@54.0.0)(eslint@9.6.0)
+    version: 2.0.11(@typescript-eslint/eslint-plugin@7.18.0)(@typescript-eslint/parser@7.18.0)(eslint-import-resolver-typescript@3.6.1)(eslint-plugin-eslint-comments@3.2.0)(eslint-plugin-functional@6.6.0)(eslint-plugin-import@2.29.1)(eslint-plugin-jsdoc@48.3.0)(eslint-plugin-markdown@3.0.1)(eslint-plugin-n@17.9.0)(eslint-plugin-optimize-regex@1.2.1)(eslint-plugin-promise@7.2.1)(eslint-plugin-sonarjs@0.25.1)(eslint-plugin-unicorn@54.0.0)(eslint@9.6.0)
   '@rollup/plugin-node-resolve':
     specifier: 15.2.3
     version: 15.2.3(rollup@4.18.0)
@@ -105,8 +105,8 @@ devDependencies:
     specifier: 5.1.3
     version: 5.1.3(eslint-config-prettier@9.1.0)(eslint@9.6.0)(prettier@3.3.2)
   eslint-plugin-promise:
-    specifier: 6.2.0
-    version: 6.2.0(eslint@9.6.0)
+    specifier: 7.2.1
+    version: 7.2.1(eslint@9.6.0)
   eslint-plugin-sonarjs:
     specifier: 0.25.1
     version: 0.25.1(eslint@9.6.0)
@@ -1093,7 +1093,7 @@ packages:
       config-chain: 1.1.13
     dev: true
 
-  /@rebeccastevens/eslint-config@2.0.11(@typescript-eslint/eslint-plugin@7.18.0)(@typescript-eslint/parser@7.18.0)(eslint-import-resolver-typescript@3.6.1)(eslint-plugin-eslint-comments@3.2.0)(eslint-plugin-functional@6.6.0)(eslint-plugin-import@2.29.1)(eslint-plugin-jsdoc@48.3.0)(eslint-plugin-markdown@3.0.1)(eslint-plugin-n@17.9.0)(eslint-plugin-optimize-regex@1.2.1)(eslint-plugin-promise@6.2.0)(eslint-plugin-sonarjs@0.25.1)(eslint-plugin-unicorn@54.0.0)(eslint@9.6.0):
+  /@rebeccastevens/eslint-config@2.0.11(@typescript-eslint/eslint-plugin@7.18.0)(@typescript-eslint/parser@7.18.0)(eslint-import-resolver-typescript@3.6.1)(eslint-plugin-eslint-comments@3.2.0)(eslint-plugin-functional@6.6.0)(eslint-plugin-import@2.29.1)(eslint-plugin-jsdoc@48.3.0)(eslint-plugin-markdown@3.0.1)(eslint-plugin-n@17.9.0)(eslint-plugin-optimize-regex@1.2.1)(eslint-plugin-promise@7.2.1)(eslint-plugin-sonarjs@0.25.1)(eslint-plugin-unicorn@54.0.0)(eslint@9.6.0):
     resolution: {integrity: sha512-I5hulFEN1YHrC3f7Ah/j/4CgHPrZeyXKTevilmgOjNe3S7sOqA8l9tjnEj7l0v9H9RDufQ+bQu24QZHnp+G6yw==}
     engines: {node: '>=18.12.1'}
     peerDependencies:
@@ -1124,7 +1124,7 @@ packages:
       eslint-plugin-markdown: 3.0.1(eslint@9.6.0)
       eslint-plugin-n: 17.9.0(eslint@9.6.0)
       eslint-plugin-optimize-regex: 1.2.1
-      eslint-plugin-promise: 6.2.0(eslint@9.6.0)
+      eslint-plugin-promise: 7.2.1(eslint@9.6.0)
       eslint-plugin-sonarjs: 0.25.1(eslint@9.6.0)
       eslint-plugin-unicorn: 54.0.0(eslint@9.6.0)
     dev: true
@@ -3450,6 +3450,7 @@ packages:
   /eslint-plugin-markdown@3.0.1(eslint@9.6.0):
     resolution: {integrity: sha512-8rqoc148DWdGdmYF6WSQFT3uQ6PO7zXYgeBpHAOAakX/zpq+NvFYbDA/H7PYzHajwtmaOzAwfxyl++x0g1/N9A==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: Please use @eslint/markdown instead
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
@@ -3504,12 +3505,13 @@ packages:
       synckit: 0.8.8
     dev: true
 
-  /eslint-plugin-promise@6.2.0(eslint@9.6.0):
-    resolution: {integrity: sha512-QmAqwizauvnKOlifxyDj2ObfULpHQawlg/zQdgEixur9vl0CvZGv/LCJV2rtj3210QCoeGBzVMfMXqGAOr/4fA==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+  /eslint-plugin-promise@7.2.1(eslint@9.6.0):
+    resolution: {integrity: sha512-SWKjd+EuvWkYaS+uN2csvj0KoP43YTu7+phKQ5v+xw6+A0gutVX2yqCeCkC3uLCJFiPfR2dD8Es5L7yUsmvEaA==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
     dependencies:
+      '@eslint-community/eslint-utils': 4.4.0(eslint@9.6.0)
       eslint: 9.6.0
     dev: true
 
