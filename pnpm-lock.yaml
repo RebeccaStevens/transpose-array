@@ -126,8 +126,8 @@ devDependencies:
     specifier: 0.41.0
     version: 0.41.0
   marked:
-    specifier: 13.0.0
-    version: 13.0.0
+    specifier: 16.3.0
+    version: 16.3.0
   prettier:
     specifier: 3.3.2
     version: 3.3.2
@@ -3450,6 +3450,7 @@ packages:
   /eslint-plugin-markdown@3.0.1(eslint@9.6.0):
     resolution: {integrity: sha512-8rqoc148DWdGdmYF6WSQFT3uQ6PO7zXYgeBpHAOAakX/zpq+NvFYbDA/H7PYzHajwtmaOzAwfxyl++x0g1/N9A==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: Please use @eslint/markdown instead
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
@@ -5310,9 +5311,9 @@ packages:
     hasBin: true
     dev: true
 
-  /marked@13.0.0:
-    resolution: {integrity: sha512-VTeDCd9txf4KLLljUZ0nljE/Incb9SrWuueE44QVuU0pkOdh4sfCeW1Z6lPcxyDRSVY6rm8db/0OPaN75RNUmw==}
-    engines: {node: '>= 18'}
+  /marked@16.3.0:
+    resolution: {integrity: sha512-K3UxuKu6l6bmA5FUwYho8CfJBlsUWAooKtdGgMcERSpF7gcBUrCGsLH7wDaaNOzwq18JzSUDyoEb/YsrqMac3w==}
+    engines: {node: '>= 20'}
     hasBin: true
     dev: true
 
