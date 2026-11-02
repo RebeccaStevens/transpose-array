@@ -84,7 +84,7 @@
     "cspell": "8.9.1",
     "denoify": "1.6.13",
     "eslint": "9.6.0",
-    "eslint-config-prettier": "9.1.0",
+    "eslint-config-prettier": "10.1.8",
     "eslint-import-resolver-typescript": "3.6.1",
     "eslint-plugin-ava": "15.0.1",
     "eslint-plugin-eslint-comments": "3.2.0",
