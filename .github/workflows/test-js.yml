@@ -34,7 +34,7 @@ jobs:
         run: pnpm test
 
       - name: Report coverage
-        uses: codecov/codecov-action@v4.5.0
+        uses: codecov/codecov-action@v4.6.0
         if: env.REPORT_COVERAGE == 'true'
         with:
           file: coverage/lcov.info
